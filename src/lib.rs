@@ -27,5 +27,5 @@ pub mod prelude {
         nav::{Nav, NavBundle, PathTarget, Pathfind},
         plugin::{map_nav_plugin, MapNavPlugin},
     };
-    pub use navmesh::{NavPathMode, NavQuery};
+    pub use navmesh::{NavPathMode, NavQuery, NavVec3};
 }
